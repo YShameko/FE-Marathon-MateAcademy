@@ -1,0 +1,51 @@
+@import url('reset.css');
+
+/* .container {
+    max-width: 1020 px;
+    margin: 0 auto;
+} */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 64px 120px;
+    background-image: url(/img/header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__top, .menu__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__bottom {
+    font-family: Inter;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -1.5px;
+    vertical-align: middle;
+}
+
+.menu__items {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #292929;
+    padding: 64px 0;
+}
+
+.menu {
+    height: 100vh;
+    padding: 64px 120px;
+    outline: 1px dotted;
+}
