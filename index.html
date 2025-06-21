@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bose</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="home">
     <header class="header">
         <div class="header__top">
             <img src="img/logo.svg" alt="Bose logo">
@@ -25,37 +28,29 @@
             <img src="img/logo.svg" alt="Bose logo">
             <img src="img/icons/Icon-Close.svg" alt="Close icon">
         </div>
-        <ul class="menu__items">
-            <li>
-                Home
-            </li>
-            <li>
-                recommended
-            </li>
-            <li>
-                Categories
-            </li>
-            <li>
-                How to buy
-            </li>
-        </ul>
+        <nav class="menu__nav">
+            <a href="#home" class="menu__nav__link">Home</a>
+            <a href="#recommended" class="menu__nav__link">Recommended</a>
+            <a href="#categories" class="menu__nav__link">Categories</a>
+            <a href="#how-to-buy" class="menu__nav__link">How to buy</a>
+        </nav>
     </div>
 
     <main>
-        <section>
+        <section id="recommended">
             <h2>
                 Recommended
             </h2>
         </section>
         
-        <section>
+        <section id="categories">
             <h2>
                 Browse Bose <br>
                 products by category
             </h2>
         </section>
         
-        <section>
+        <section id="how-to-buy">
             <h2>
                 Why buy direct <br>
                 from Bose
