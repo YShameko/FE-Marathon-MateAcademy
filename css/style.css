@@ -42,7 +42,7 @@ body {
 }
 
 .header__top__burger:hover {
-    content: url('/img/icons/Icon-Burger-menu-hover.svg');
+    content: url('../img/icons/Icon-Burger-menu-hover.svg');
 }
 
 .header__bottom {
