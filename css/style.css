@@ -26,7 +26,7 @@ body {
     justify-content: space-between;
     height: 100vh;
     padding: 64px 120px;
-    background-image: url(/img/header-bg.png);
+    background-image: url(../img/header-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -224,7 +224,7 @@ body {
 }
 
 .footer {
-    background: url(/img/footer-bg.png);
+    background: url(../img/footer-bg.png);
     height: 460px;
     background-position: center;
     background-repeat: no-repeat;
